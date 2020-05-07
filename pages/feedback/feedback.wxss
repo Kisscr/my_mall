@@ -1,0 +1,90 @@
+.container {
+  background-color: #dedede;
+  height: calc(100vh - 80rpx);
+  color: #666;
+  padding: 20rpx;
+  position: relative;
+}
+.container .feedback-content .feedback-title {
+  padding: 10rpx 20rpx;
+  font-size: 32rpx;
+}
+.container .feedback-content .feedback-type {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .feedback-content .feedback-type .feedback-item {
+  background-color: #fff;
+  width: 30%;
+  padding: 15rpx 0;
+  text-align: center;
+  border-radius: 10rpx;
+  margin: 10rpx;
+}
+.container .textarea {
+  margin-top: 20rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+.container .textarea .txt {
+  border-bottom: 5rpx solid #dedede;
+}
+.container .textarea .tools {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .textarea .tools .addimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 10rpx;
+  background-color: #f8f8f8;
+  color: #dedede;
+  font-size: 60rpx;
+  margin: 15rpx;
+}
+.container .textarea .tools .img-item {
+  width: 90rpx;
+  height: 90rpx;
+  margin: 15rpx;
+  position: relative;
+}
+.container .textarea .tools .img-item .img {
+  width: 100%;
+  height: 100%;
+}
+.container .textarea .tools .img-item .cancel-icon {
+  position: absolute;
+  right: -13rpx;
+  top: -7rpx;
+  width: 35rpx;
+  height: 35rpx;
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 22rpx;
+}
+.container .submit {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20rpx;
+}
+.container .submit .submit-btn {
+  width: 180rpx;
+  height: 90rpx;
+  background-color: var(--themeColor);
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: bold;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .submit .icon {
+  margin-right: 10rpx;
+}

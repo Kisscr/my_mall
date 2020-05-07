@@ -1,0 +1,19 @@
+<scroll-view scroll-y="{{true}}" class="cate-right" scroll-top="{{ scrollTop }}">
+  <block wx:for="{{ catelist }}" wx:key="index" wx:for-item="item1" wx:for-index="index1">
+    <view class="cate-item">
+      <view class="item-title">
+        <text class="spacing">/</text>
+        <text class="txt">{{ item1.cat_name }}</text>
+        <text class="spacing">/</text>
+      </view>
+      <view class="item-list">
+        <block wx:for="{{ item1.children }}" wx:key="cart_id" wx:for-item="item2" wx:for-index="index2">
+          <navigator class="item" url="/pages/goods_list/goods_list?cid={{item2.cat_id}}" open-type="navigate">
+            <image class="item-image" src="{{ item2.cat_icon }}" mode="widthFix"></image>
+            <view class="item-txt">{{ item2.cat_name }}</view>
+          </navigator>
+        </block>
+      </view>
+    </view>
+  </block>
+</scroll-view>

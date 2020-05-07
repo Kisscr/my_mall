@@ -1,0 +1,14 @@
+<!--pages/goods_list/goods_list.wxml-->
+<!-- 1. 搜索部分 -->
+<c-search>
+  <view slot="iconfont" class="iconfont iconsousuo"></view>
+</c-search>
+
+<!-- 2. tabbar部分 -->
+<c-tab tablist="{{ tabList }}" bind:tabIndex="handleTabSwitch" />
+
+<!-- 3. 商品列表部分 -->
+<c-goods goodslist="{{ goods }}" />
+
+<!-- 4. 返回顶部部分 -->
+<c-backtop wx:if="{{ isBackTopShow }}"/>

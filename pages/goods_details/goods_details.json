@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "c-swiper": "/components/c-swiper/c-swiper",
+    "c-backtop": "/components/c-backtop/c-backtop",
+    "c-goods-info": "./childCpns/c-goods-info/c-goods-info",
+    "c-goods-content": "./childCpns/c-goods-content/c-goods-content",
+    "c-tools": "./childCpns/c-tools/c-tools"
+  },
+  "navigationBarTitleText": "商品详情"
+}

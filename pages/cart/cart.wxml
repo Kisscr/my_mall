@@ -1,0 +1,30 @@
+<!-- 1. 获取收货地址 -->
+<block wx:if="{{ !address.userName }}">
+  <c-get-location bind:getAddress="hangdleGetAddress"></c-get-location>
+</block>
+
+<!-- 2. 收货地址 -->
+<block wx:else>
+  <c-address address="{{ address }}"></c-address>
+</block>
+
+<!-- 3. 显示购物车的标题 -->
+<c-title>
+  <view slot="title">购物车</view>
+</c-title>
+
+<!-- 4. 显示购物车中内容 -->
+<c-cart-list wx:if="{{cart.length}}" cartlist="{{cart}}" bind:ItemChange="handleItemChange" bind:changeCount="handleChangeCount"></c-cart-list>
+<view wx:else>
+  <image src="/assets/images/nogoods.jpg" mode="widthFix"></image>
+</view>
+  
+
+<!-- 5. 底部工具栏 -->
+<c-bottom-tools totalNum="{{totalNum}}" totalPrice="{{totalPrice}}" bind:pay="handlePay">
+  <checkbox-group slot="checkbox" bindchange="handleAllCheck">
+    <checkbox checked="{{allChecked}}">全选</checkbox>
+  </checkbox-group>
+  <view slot="order-pay">结算</view>
+</c-bottom-tools>
+

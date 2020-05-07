@@ -1,0 +1,18 @@
+<view class="goods-item-container">
+		<slot name="checkbox"></slot>
+		<navigator class="goods-item" url="/pages/goods_details/goods_details?goods_id={{goodsItem.goods_id}}">
+				<view class="goods-img">
+						<!-- <image class="back" mode="widthFix" src="{{ goodsItem.goods_small_logo ? goodsItem.goods_small_logo : 'http://www.wenbao.net/html/yantaohui/07yth/images/pic/zanque.jpg' }}"></image> -->
+						<image class="img" mode="widthFix" src="{{ goodsItem.goods_small_logo ? goodsItem.goods_small_logo : 'http://www.wenbao.net/html/yantaohui/07yth/images/pic/zanque.jpg' }}"></image>
+				</view>
+				<view class="goods-info">
+						<view class="goods-name">{{ goodsItem.goods_name }}</view>
+				</view>
+		</navigator>
+		<view class="goods-price-row">
+				<view class="goods-price">￥{{ goodsItem.goods_price }}</view>
+				<view class="goods_count">
+						<slot name="num"></slot>
+				</view>
+		</view>
+</view>

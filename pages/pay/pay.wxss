@@ -1,0 +1,10 @@
+page{
+  padding-bottom: 90rpx;
+}
+  
+.num{
+  width: 90rpx;
+  display: flex;
+  font-size: 32rpx;
+  font-weight: 500;
+}

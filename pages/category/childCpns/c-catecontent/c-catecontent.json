@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "c-cateleftname": "../c-cateleftname/c-cateleftname",
+    "c-caterightdetails": "../c-caterightdetails/c-caterightdetails"
+  }
+}

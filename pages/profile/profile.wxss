@@ -1,0 +1,72 @@
+page {
+  background-color: #edece8;
+}
+.container {
+  position: relative;
+}
+.container .user-other {
+  padding-bottom: 100rpx;
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+  color: #666;
+}
+.container .user-other .collect-wrap {
+  background-color: #fff;
+  display: flex;
+}
+.container .user-other .collect-wrap .collect-nav {
+  padding: 20rpx 0;
+  flex: 1;
+  text-align: center;
+}
+.container .user-other .collect-wrap .collect-nav .collect-num {
+  color: var(--themeColor);
+}
+.container .user-other .order-wrap {
+  background-color: #fff;
+  margin-top: 30rpx;
+}
+.container .user-other .order-wrap .order-title {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+  color: var(--themeColor);
+  font-size: 32rpx;
+}
+.container .user-other .order-wrap .order-info {
+  display: flex;
+  text-align: center;
+  padding: 20rpx 0;
+}
+.container .user-other .order-wrap .order-info .order-nav {
+  flex: 1;
+}
+.container .user-other .order-wrap .order-info .order-nav .order-icon {
+  color: var(--themeColor);
+  font-size: 42rpx;
+  margin-bottom: 6rpx;
+}
+.container .user-other .address-wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 20rpx;
+}
+.container .user-other .app-info-wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+}
+.container .user-other .app-info-wrap .app-info-item {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.container .user-other .app-info-wrap .app-item-contact {
+  display: flex;
+  justify-content: space-between;
+}
+.container .user-other .recommend {
+  background-color: #fff;
+  margin-top: 30rpx;
+  padding: 20rpx;
+}

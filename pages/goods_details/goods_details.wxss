@@ -1,0 +1,18 @@
+/* pages/goods_details/goods_details.wxss */
+page{
+  padding-bottom: 90rpx;
+}
+
+.goods-swiper{
+  height: 70vw;
+  text-align: center;
+}
+.swiper-img{
+  width: 70%;
+}
+.iconfont{
+  font-size: 44rpx;
+}
+.iconhtmal5icon24{
+  color: var(--themeColor);
+}

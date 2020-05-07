@@ -1,0 +1,22 @@
+<!-- 1. 收货地址 -->
+<c-address address="{{address}}"></c-address>
+
+<!-- 2. 标题部分 -->
+<c-title>
+  <view slot="title">支付清单</view>
+</c-title>
+
+<!-- 3. 商品列表 -->
+<block wx:for="{{cart}}" wx:key="goods_id">
+  <c-goods-item goodsItem="{{ item }}">
+    <view class="num" slot="num">
+      <view class="mul">×</view>
+      <view class="count">{{item.goods_count}}</view>
+    </view>
+  </c-goods-item>
+</block>
+
+<!-- 4. 底部支付栏 -->
+<c-bottom-tools bind:pay="handleOrderPay" totalNum="{{totalNum}}" totalPrice="{{totalPrice}}">
+  <view slot="order-pay">支付</view>
+</c-bottom-tools>

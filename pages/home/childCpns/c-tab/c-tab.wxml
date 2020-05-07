@@ -1,0 +1,8 @@
+<!--pages/home/childCpns/c-tab/c-tab.wxml-->
+<view class="tab-container">
+	<block wx:for="{{ tablist }}" wx:key="name">
+		<navigator class="tab-item" url="/pages/category/category" open-type="switchTab">
+      <image src="{{ item.image_src }}" mode="widthFix"></image>
+		</navigator>
+	</block>
+</view>

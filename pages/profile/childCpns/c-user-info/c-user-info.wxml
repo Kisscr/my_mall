@@ -1,0 +1,14 @@
+<view class="container">
+  <view wx:if="{{userInfo.avatarUrl}}" class="userinfo-container">
+    <view>
+      <image class="userinfo-bg" src="{{userInfo.avatarUrl}}"></image>
+    </view>
+    <view class="userinfo-wrap">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+      <view class="username">{{userInfo.nickName}}</view>
+    </view>
+  </view>
+  <view wx:else class="login">
+    <navigator class="to-login" url="/pages/login/login">登录</navigator>
+  </view>
+</view>

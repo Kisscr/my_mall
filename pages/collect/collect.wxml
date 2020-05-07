@@ -1,0 +1,7 @@
+<!-- 1. tab栏 -->
+<c-tab tablist="{{tabList}}"></c-tab>
+<!-- 2. 收藏商品部分 -->
+<block wx:if="{{collect.length}}" wx:for="{{collect}}" wx:key="goods_id">
+  <c-goods-item goodsItem="{{item}}"></c-goods-item>
+</block>
+<image wx:if="{{!collect.length}}" mode="widthFix" src="/assets/images/nodata.jpg" />

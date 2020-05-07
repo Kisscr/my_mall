@@ -1,0 +1,35 @@
+.floor-container {
+    .floor-item {
+        margin-top: 40rpx;
+        .floor-title {
+            padding: 10rpx 0;
+            margin-left: 10rpx;
+        }
+
+        .floor-list {
+            overflow: hidden;
+            .floor-nav {
+                float: left;
+                width: 33.33%;
+
+                &:nth-child(2) {
+                    border-bottom: 5rpx solid #fff;
+                }
+
+                &:nth-child(3) {
+                    border-bottom: 5rpx solid #fff;
+                }
+                
+                &:nth-last-child(-n + 4) {
+                    /* 原图宽高 232 * 386 */
+                    height: 33.33vw * 386 / 232 / 2;
+                    border-left: 5rpx solid #fff;
+                    image {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

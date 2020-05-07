@@ -1,0 +1,7 @@
+.goods-container {
+  margin-top: 20rpx;
+}
+.num{
+  width: 90rpx;
+  height: 90rpx;
+}

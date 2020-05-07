@@ -1,0 +1,8 @@
+<!--pages/category/category.wxml-->
+<!-- 1. 搜索部分 -->
+<c-search>
+  <view slot="iconfont" class="iconfont iconsousuo"></view>
+</c-search>
+
+<!-- 2. 分类部分  -->
+<c-catecontent />

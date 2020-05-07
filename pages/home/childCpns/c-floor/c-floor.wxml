@@ -1,0 +1,17 @@
+<!-- pages/home/childCpns/c-floor/c-floor.wxml -->
+<view class="floor-container">
+		<block wx:for="{{ floorlist }}" wx:key="name" wx:for-item="item1" wx:for-index="index1">
+				<view class="floor-item">
+						<view class="floor-title">
+								<image class="title-img" src="{{ item1.floor_title.image_src }}" mode="widthFix"></image>
+						</view>
+						<view class="floor-list">
+								<block wx:for="{{ item1.product_list }}" wx:key="name" wx:for-item="item2" wx:for-index="index2">
+										<navigator class="floor-nav" url="{{item2.navigator_url}}">
+												<image class="item-img" src="{{ item2.image_src }}" mode="{{ index2===0 ? 'widthFix' : 'scaleToFill' }}"></image>
+										</navigator>
+								</block>
+						</view>
+				</view>
+		</block>
+</view>

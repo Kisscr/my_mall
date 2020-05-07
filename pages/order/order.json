@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "c-goods-items": "/components/c-goods-item/c-goods-item",
+    "c-tab": "../goods_list/childCpns/c-tab/c-tab"
+  },
+  "navigationBarTitleText": "订单中心"
+}

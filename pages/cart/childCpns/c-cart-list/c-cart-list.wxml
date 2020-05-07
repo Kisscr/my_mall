@@ -1,0 +1,14 @@
+<block wx:for="{{cartlist}}" wx:key="goods_id">
+  <c-goods-item goodsItem="{{ item }}">
+    <view slot="checkbox" class="checkbox">
+      <checkbox-group  data-id="{{item.goods_id}}" bindchange="handleItemChange">
+        <checkbox class="check-btn" checked="{{item.checked}}"></checkbox>
+      </checkbox-group>
+    </view>
+    <view class="num" slot="num">
+      <view class="txt" bind:tap="handleChangeCount" data-id="{{item.goods_id}}" data-operation="{{-1}}">-</view>
+      <view class="txt count">{{item.goods_count}}</view>
+      <view class="txt" bind:tap="handleChangeCount" data-id="{{item.goods_id}}" data-operation="{{1}}">+</view>
+    </view>
+  </c-goods-item>
+</block>

@@ -1,0 +1,20 @@
+<!-- 1. 商品轮播图 -->
+<c-swiper class="swiper" swiperlist="{{swpierList}}" swiper-container="goods-swiper" swiper-img="swiper-img" bind:ChooseImage="handleChooseImage"/>
+
+<!-- 2. 商品信息部分 -->
+<c-goods-info goodsObj="{{ goodsObj }}" bind:collect="handleCollect">
+  <view slot="iconfont" class="iconfont {{isCollected ? 'iconhtmal5icon24' : 'iconshoucang1'}}"></view>
+</c-goods-info>
+
+<!-- 3. 图文详情部分 -->
+<c-goods-content goodsContent="{{ goodsObj }}"/>
+
+<!-- 4. 底部功能键 -->
+<c-tools bind:addToCart="hangleAddToCart" bind:buyNow="handleBuyNow">
+  <view slot="customer" class="iconfont iconkefu"></view>
+  <view slot="share" class="iconfont iconfenxiang"></view>
+  <view slot="cart" class="iconfont icongouwuche"></view>
+</c-tools>
+
+<!-- 5. 返回顶部部分 -->
+<c-backtop wx:if="{{ isBackTopShow }}"/>

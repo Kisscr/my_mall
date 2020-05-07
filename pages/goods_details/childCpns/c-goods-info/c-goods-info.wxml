@@ -1,0 +1,11 @@
+<!--pages/goods_details/childCpns/c-goods-info/c-goods-info.wxml-->
+<view class="goods-info-wrap">
+  <view class="goods-price">￥{{ goodsObj.goods_price }}</view>
+  <view class="goods-info"> 
+    <view class="goods-name">{{ goodsObj.goods_name }}</view>
+    <view class="goods-collect" bindtap="handleCollect">
+      <slot name="iconfont"></slot>
+      <view>收藏</view>
+    </view>
+  </view>
+</view>

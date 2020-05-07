@@ -1,0 +1,16 @@
+<view class="container">
+  <!-- 1. 搜索框 -->
+  <view class="search-wrap">
+    <input class="search-input" value="{{inputValue}}" placeholder="请输入要搜索的商品" bindinput="handleSearch"></input>
+    <view class="cancel" hidden="{{!isFocus}}" bindtap="handleCancelSearch">取消</view>
+  </view>
+
+  <!-- 2. 搜索的内容区 -->
+  <view class="search-content">
+    <block wx:for="{{search}}" wx:key="goods_id">
+      <navigator class="search-item" url="/pages/goods_details/goods_details?goods_id={{item.goods_id}}">
+        {{item.goods_name}}
+      </navigator>
+    </block>
+  </view>
+</view>

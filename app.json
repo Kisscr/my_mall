@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/profile/profile",
+    "pages/search/search",
+    "pages/goods_list/goods_list",
+    "pages/goods_details/goods_details",
+    "pages/pay/pay",
+    "pages/auth/auth",
+    "pages/login/login",
+    "pages/order/order",
+    "pages/collect/collect",
+    "pages/feedback/feedback"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "优购首页",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#777",
+    "selectedColor": "#eb4450",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "优购首页",
+        "iconPath": "/assets/icons/zhuye.png",
+        "selectedIconPath": "/assets/icons/home.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "/assets/icons/fenlei1.png",
+        "selectedIconPath": "/assets/icons/fenlei.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/assets/icons/gouwuche.png",
+        "selectedIconPath": "/assets/icons/gouwuche-copy.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "/assets/icons/yonghu.png",
+        "selectedIconPath": "/assets/icons/gerenzhongxin.png"
+      }
+    ]
+  },
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

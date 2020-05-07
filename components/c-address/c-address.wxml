@@ -1,0 +1,8 @@
+<view class="address-container">
+  <view class="title">收货地址：</view>
+  <view class="address-info">
+    <view class="name">收货人：{{ address.userName }}</view>
+    <view class="tel">{{ address.telNumber }}</view>
+  </view>
+  <view class="address">{{ address.all }}</view>
+</view>

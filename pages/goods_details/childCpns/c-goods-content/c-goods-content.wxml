@@ -1,0 +1,2 @@
+<view class="title">图文详情</view>
+<rich-text nodes="{{ goodsContent.goods_introduce }}"></rich-text>

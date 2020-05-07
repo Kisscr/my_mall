@@ -1,0 +1,7 @@
+<scroll-view class="cate-left" scroll-y="{{true}}">
+  <block wx:for="{{ catenames }}" wx:key="*this">
+    <view class="cate-item {{ index === currentIndex ? 'active' : '' }}" data-index="{{index}}" bind:tap="handleCateTap">
+      {{ item }}
+    </view>
+  </block>
+</scroll-view>

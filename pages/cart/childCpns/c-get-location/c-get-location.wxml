@@ -1,0 +1,3 @@
+<view class="location-container">
+  <button type="primary" plain bind:tap="getAddress">获取收货地址</button>
+</view>

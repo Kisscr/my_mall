@@ -1,0 +1,15 @@
+<!-- 1. 导航栏 -->
+<c-tab tablist="{{ tabList }}" bind:tabIndex="handleTabSwitch" />
+<!-- 2. 商品部分 -->
+<view class="container" wx:if="{{order.length}}">
+  <block wx:for="{{order}}" wx:key="index1" wx:for-item="item1" wx:for-index="index1">
+    <block wx:for="{{item1.newOrder}}" wx:key="index2" wx:for-item="item2" wx:for-index="index2">
+      <c-goods-items goodsItem="{{item2}}">
+        <view class="order-time" slot="num">{{item1.time}}</view>
+      </c-goods-items>
+    </block>
+  </block>
+</view>
+<view wx:else>
+  <image src="/assets/images/nodata.jpg" mode="widthFix"></image>
+</view>

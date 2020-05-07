@@ -1,0 +1,29 @@
+.floor-container .floor-item {
+  margin-top: 40rpx;
+}
+.floor-container .floor-item .floor-title {
+  padding: 10rpx 0;
+  margin-left: 10rpx;
+}
+.floor-container .floor-item .floor-list {
+  overflow: hidden;
+}
+.floor-container .floor-item .floor-list .floor-nav {
+  float: left;
+  width: 33.33%;
+}
+.floor-container .floor-item .floor-list .floor-nav:nth-child(2) {
+  border-bottom: 5rpx solid #fff;
+}
+.floor-container .floor-item .floor-list .floor-nav:nth-child(3) {
+  border-bottom: 5rpx solid #fff;
+}
+.floor-container .floor-item .floor-list .floor-nav:nth-last-child(-n + 4) {
+  /* 原图宽高 232 * 386 */
+  height: 27.72711207vw;
+  border-left: 5rpx solid #fff;
+}
+.floor-container .floor-item .floor-list .floor-nav:nth-last-child(-n + 4) image {
+  width: 100%;
+  height: 100%;
+}

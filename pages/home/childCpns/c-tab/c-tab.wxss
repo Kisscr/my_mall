@@ -1,0 +1,8 @@
+/* pages/home/childCpns/c-tab/c-tab.wxss */
+.tab-container{
+  display: flex;
+  margin-top: 20rpx;
+}
+.tab-item{
+  flex: 1;
+}

@@ -1,0 +1,23 @@
+.search-container {
+  height: 90rpx;
+  background: var(--themeColor);
+  padding: 0 10rpx;
+}
+.search-container .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbdadc;
+  width: 100%;
+  height: 70rpx;
+  border-radius: 40rpx;
+}
+.search-container .search .txt {
+  color: #666;
+}
+.slot-icon{
+  position: relative;
+  top: 3rpx;
+  left: -5rpx;
+  color: #666;
+}

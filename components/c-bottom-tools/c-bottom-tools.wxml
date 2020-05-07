@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="checkbox-wrap">
+    <slot name="checkbox"></slot>
+  </view>
+  <view class="total-price-wrap">
+    <view class="total-price">
+      <text class="total">合计：</text>
+      <text class="txt">￥{{totalPrice}}</text>
+    </view>
+    <view>包含运费</view>
+  </view>
+  <view class="order-pay">
+    <view bindtap="handlePay"><slot name="order-pay">结算</slot></view>
+    <text>({{totalNum}})</text>
+  </view>
+</view>

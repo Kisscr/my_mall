@@ -1,0 +1,47 @@
+.tools {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  height: 90rpx;
+  border-top: 1px solid #cccccc;
+}
+.tools .tools-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.tools .btn {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+.tools .customer {
+  flex: 1;
+}
+.tools .share {
+  flex: 1;
+}
+.tools .cart {
+  flex: 1;
+}
+.tools .add-cart {
+  flex: 2;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30rpx;
+  background-color: #ffa500;
+}
+.tools .buy {
+  flex: 2;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30rpx;
+  background-color: #ff0000;
+}

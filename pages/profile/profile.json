@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "c-user-info": "./childCpns/c-user-info/c-user-info",
+    "c-user-other": "./childCpns/c-user-other/c-user-other"
+  },
+  "navigationBarTitleText": "个人中心"
+}

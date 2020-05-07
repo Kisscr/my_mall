@@ -1,0 +1,4 @@
+<view class="cate-container">
+  <c-cateleftname class="cate-left" catenames="{{ cateLeft }}" bind:handleCateIndex="handleSwitchCate"/>
+  <c-caterightdetails class="cate-right" catelist="{{ cateRight }}" scrollTop="{{ scrollTop }}"/>
+</view>

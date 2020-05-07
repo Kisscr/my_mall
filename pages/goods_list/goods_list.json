@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "c-search": "/components/c-search/c-search",
+    "c-backtop": "/components/c-backtop/c-backtop",
+    "c-tab": "./childCpns/c-tab/c-tab",
+    "c-goods": "./childCpns/c-goods/c-goods"
+  },
+  "navigationBarTitleText": "商品列表"
+}

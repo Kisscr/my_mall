@@ -1,0 +1,6 @@
+<view class="search-container">
+	<navigator class="search" url="/pages/search/search" hover-class="navigator-hover" open-type="navigate">
+		<view class="slot-icon"><slot name="iconfont"></slot></view>
+		<view class="txt">搜索</view>
+	</navigator>
+</view>

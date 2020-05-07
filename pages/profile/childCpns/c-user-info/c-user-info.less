@@ -1,0 +1,46 @@
+.container {
+    height: 45vh;
+    background-color: var(--themeColor);
+    position: relative;
+    overflow: hidden;
+    .userinfo-container {
+        .userinfo-bg {
+            height: 50vh;
+            filter: blur(15rpx);
+        }
+        .userinfo-wrap {
+            position: absolute;
+            left: 50%;
+            top: 20%;
+            transform: translate(-50%);
+            .userinfo-avatar {
+                width: 150rpx;
+                height: 150rpx;
+                border-radius: 50%;
+            }
+            .username {
+                margin-top: 40rpx;
+                text-align: center;
+                color: #fff;
+                font-size: 44rpx;
+                font-weight: 500;
+            }
+        }
+    }
+    .login {
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%);
+        .to-login {
+            width: 180rpx;
+            height: 100rpx;
+            text-align: center;
+            line-height: 100rpx;
+            border-radius: 10rpx;
+            color: greenyellow;
+            font-size: 38rpx;
+            border: 1px solid greenyellow;
+        }
+    }
+}

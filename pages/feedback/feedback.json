@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "c-tab": "/pages/goods_list/childCpns/c-tab/c-tab"
+  },
+  "navigationBarTitleText": "意见反馈"
+}

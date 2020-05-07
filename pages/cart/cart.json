@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "c-address": "/components/c-address/c-address",
+    "c-bottom-tools": "/components/c-bottom-tools/c-bottom-tools",
+    "c-title": "/components/c-title/c-title",
+    "c-get-location": "./childCpns/c-get-location/c-get-location",
+    "c-cart-list": "./childCpns/c-cart-list/c-cart-list"
+  },
+  "navigationBarTitleText": "购物车"
+}

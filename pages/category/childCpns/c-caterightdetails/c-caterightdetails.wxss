@@ -1,0 +1,27 @@
+.cate-right {
+  height: calc(100vh - 90rpx);
+}
+.cate-right .cate-item .item-title {
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #555;
+}
+.cate-right .cate-item .item-title .spacing {
+  margin: 0 10rpx;
+  color: #ccc;
+}
+.cate-right .cate-item .item-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cate-right .cate-item .item-list .item {
+  margin: 10rpx 0;
+  width: 33.33%;
+  text-align: center;
+}
+.cate-right .cate-item .item-list .item .item-image {
+  width: 50%;
+  height: 50%;
+}

@@ -1,0 +1,11 @@
+<!-- 1. 搜索框部分 -->
+<c-search>
+  <view slot="iconfont" class="iconfont iconsousuo"></view>
+</c-search>
+<!-- 2. 轮播图部分 -->
+<c-swiper swiperlist="{{ swiperList }}"></c-swiper>
+
+<!-- 3. 导航部分 -->
+<c-tab tablist="{{ tabList }}" />
+<!-- 4. 楼层部分 -->
+<c-floor floorlist="{{ floorList }}" />

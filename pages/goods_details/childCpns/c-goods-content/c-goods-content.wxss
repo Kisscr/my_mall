@@ -1,0 +1,6 @@
+.title{
+  color: var(--themeColor);
+  font-size: 36rpx;
+  padding: 20rpx 20rpx;
+  margin-bottom: 10rpx;
+}

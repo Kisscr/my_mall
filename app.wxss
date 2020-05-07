@@ -1,0 +1,29 @@
+/**app.wxss**/
+@import "./style/iconfont.wxss";
+@import "./style/checkbox.wxss";
+
+page{
+    /* 定义主题颜色 */
+    --themeColor: #eb4450;
+    /* 定义统一字体大小 */
+    font-size: 28rpx;
+}
+
+
+page,
+view,
+navigator,
+image,
+swiper,
+swiper-item,
+text,
+scroll-view,
+button {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+image{ 
+    width: 100%;
+}

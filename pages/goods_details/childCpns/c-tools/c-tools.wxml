@@ -1,0 +1,25 @@
+<!-- pages/goods_details/childCpns/c-tools/c-tools.wxml -->
+<view class="tools">
+  <view class="tools-item customer">
+    <view class="icon">
+      <slot name="customer"></slot>
+    </view>
+    <view>客服</view>
+    <button class="btn" open-type="contact"></button>
+  </view>
+  <view class="tools-item share">
+    <view class="icon">
+      <slot name="share"></slot>
+    </view>
+    <view class="share">分享</view>
+    <button class="btn" open-type="share"></button>
+  </view>
+  <navigator class="tools-item cart" open-type="switchTab" url="/pages/cart/cart">
+    <view class="icon">
+      <slot name="cart"></slot>
+    </view>
+    <view class="cart">购物车</view>
+  </navigator>
+  <view class="tools-item add-cart" bind:tap="addToCart">加入购物车</view>
+  <view class="tools-item buy" bindtap="buyNow">立即购买</view>
+</view>

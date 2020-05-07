@@ -1,0 +1,8 @@
+<!-- pages/goods_list/childCpns/c-tab/c-tab.wxml -->
+<view class="tab-container">
+  <block wx:for="{{ tablist }}" wx:key="index">
+    <view class="tab-item {{index === currentIndex ? 'active' : ''}}" bind:tap="handleTabIndex" data-index="{{ index }}">
+      {{ item }}
+    </view>
+  </block>
+</view>

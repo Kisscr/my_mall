@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "c-search": "/components/c-search/c-search",
+    "c-catecontent": "./childCpns/c-catecontent/c-catecontent"
+  },
+  "navigationBarTitleText": "商品分类"
+}

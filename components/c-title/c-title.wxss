@@ -1,0 +1,10 @@
+.title-container {
+  color: var(--themeColor);
+  font-size: 40rpx;
+  font-weight: bold;
+  margin: 10rpx 0;
+  padding: 10rpx 0;
+  border-bottom: 4rpx solid #eee;
+  border-top: 1px solid #eee;
+  padding: 20rpx;
+}

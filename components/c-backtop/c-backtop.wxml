@@ -1,0 +1,3 @@
+<view class="backtop">
+  <image mode="widthFix" class="backtop-img" src="/assets/images/top.png" bindtap="handleBackTop"></image>
+</view>

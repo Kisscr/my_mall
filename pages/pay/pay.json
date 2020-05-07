@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "c-address": "/components/c-address/c-address",
+    "c-title": "/components/c-title/c-title",
+    "c-goods-item": "/components/c-goods-item/c-goods-item",
+    "c-bottom-tools": "/components/c-bottom-tools/c-bottom-tools"
+  },
+  "navigationBarTitleText": "商品支付"
+}

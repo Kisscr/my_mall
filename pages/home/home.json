@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "c-search": "/components/c-search/c-search",
+    "c-swiper": "/components/c-swiper/c-swiper",
+    "c-tab": "./childCpns/c-tab/c-tab",
+    "c-floor": "./childCpns/c-floor/c-floor"
+  }
+}

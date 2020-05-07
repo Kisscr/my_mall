@@ -1,0 +1,10 @@
+.cate-container {
+  display: flex;
+  height: 100%;
+}
+.cate-container .cate-left {
+  flex: 2;
+}
+.cate-container .cate-right {
+  flex: 5;
+}

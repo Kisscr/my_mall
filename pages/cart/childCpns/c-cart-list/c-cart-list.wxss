@@ -1,0 +1,22 @@
+.checkbox {
+  position: absolute;
+  z-index: 3;
+  top: 90rpx;
+  left: 15rpx;
+  width: 80rpx;
+}
+
+.num{
+  display: flex;
+  margin-right: 20rpx;
+}
+.txt{
+  width: 60rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.count{
+  border: none;
+}

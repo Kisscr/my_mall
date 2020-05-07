@@ -1,0 +1,9 @@
+<view>
+		<swiper class="swiper-container" indicator-dots indicator-color="#ccc" indicator-active-color="var(--themeColor)" autoplay interval="3000">
+				<block wx:for="{{swiperlist}}" wx:key="goods_id">
+						<swiper-item class="swiper-item" bind:tap="handleChooseImage" data-url="{{item.image_src}}">
+								<image class="swiper-img" src="{{item.image_src}}" mode="widthFix"></image>
+						</swiper-item>
+				</block>
+		</swiper>
+</view>

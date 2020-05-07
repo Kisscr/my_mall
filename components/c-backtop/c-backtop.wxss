@@ -1,0 +1,10 @@
+.backtop {
+  position: fixed;
+  bottom: 100rpx;
+  right: 20rpx;
+  z-index: 1;
+  width: 90rpx;
+}
+.backtop .backtop-img {
+  width: 100%;
+}

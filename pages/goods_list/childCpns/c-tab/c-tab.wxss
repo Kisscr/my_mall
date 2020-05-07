@@ -1,0 +1,13 @@
+/* pages/goods_list/childCpns/c-tab/c-tab.wxss */
+.tab-container {
+  display: flex;
+}
+.tab-container .tab-item {
+  flex: 1;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+.tab-container .active {
+  border-bottom: 5rpx solid #ee626c;
+}
