@@ -55,5 +55,9 @@ Page({
         floorList
       })
     })
+  },
+
+  onShareAppMessage() {
+
   }
 })

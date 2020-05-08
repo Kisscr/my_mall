@@ -11,14 +11,14 @@
     <view class="icon">
       <slot name="share"></slot>
     </view>
-    <view class="share">分享</view>
+    <view class="share-txt">分享</view>
     <button class="btn" open-type="share"></button>
   </view>
   <navigator class="tools-item cart" open-type="switchTab" url="/pages/cart/cart">
     <view class="icon">
       <slot name="cart"></slot>
     </view>
-    <view class="cart">购物车</view>
+    <view class="cart-txt">购物车</view>
   </navigator>
   <view class="tools-item add-cart" bind:tap="addToCart">加入购物车</view>
   <view class="tools-item buy" bindtap="buyNow">立即购买</view>
